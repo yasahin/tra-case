@@ -1,0 +1,144 @@
+.main-title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 50px;
+}
+
+.title-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    height: 72px;
+    max-width: 540px;
+    margin: auto;
+}
+
+.cards {
+    position: relative;
+    width: 90%;
+    height: 377.52px;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+
+}
+
+.cards-container {
+    width: 332px;
+    height: 400px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #2C2C2C;
+    flex: none;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.cards-container img {
+    max-width: 265px;
+    max-height: 230px;
+}
+
+.cards-container h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.consc-p {
+    margin-bottom: -30px;
+}
+
+.cards-container p {
+    width: 290px;
+
+    margin-top: -15px;
+}
+
+
+
+.info-container {
+    width: 80%;
+    height: 470px;
+    z-index: 999;
+    margin: auto;
+    padding: 100px;
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+
+
+}
+
+.last-image {
+    width: 728px;
+    height: 469.09px;
+
+}
+
+.text-area {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.text-area li::marker {
+    color: #94B49F;
+
+}
+
+.btn {
+    background-color: #AC7088;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 173px;
+    height: 52px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
